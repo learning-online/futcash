@@ -1,0 +1,691 @@
+<!DOCTYPE html> <html lang="pt_BR"> <head> <meta charset="UTF-8"> <title>FutCash</title> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="keywords" content="trader esportivo; bet365; grupo de sinais; sinais trader; bet365 brasil; pai do digital;"/> <meta name="description" content="Ganhe dinheiro com Trader Esportivo!"/> <meta name="klickart:url" content="//art.klickpages.com.br"/> <meta name="handler:contact" content="//handler.klickpages.com.br/sendmail"/> <meta http-equiv="X-UA-Compatible" content="IE=9">
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"NRJS-c142e72e4c1ae98c33c","applicationID":"503514264","transactionName":"JQ5YEBZdDl8GRUxmWwgAQhYFHTJSBFIQZlcUF18HAQhYchNHTHJ3MkEMCxRGC1wNVg9qQgcVXg==","queueTime":0,"applicationTime":6,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-c142e72e4c1ae98c33c",applicationID:"503514264"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,w=["click","keydown","mousedown","pointerdown","touchstart"];w.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?u(e,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){e&&a&&e(n,r,i);for(var c=t(i),f=v(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[h[n]];return p&&p.push([b,n,r,c]),c}}function o(e,t){y[e]=v(e).concat(t)}function m(e,t){var n=y[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return y[e]||[]}function g(e){return p[e]=p[e]||i(n)}function w(e,t){s(e,function(e,n){t=t||"feature",h[n]=t,t in d||(d[t]=[])})}var y={},h={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:w,abort:c,aborted:!1};return b}function o(e){return u(e,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=e("gos"),s=e(6),d={},p={},l=t.exports=i();t.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(y,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1198.min.js"},h=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:w,features:{},xhrWrappable:h,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var x=0},{}],"wrap-function":[function(e,t,n){function r(e,t){function n(t,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],e)}c(n+"start",[o,a,f],s,u);try{return p=t.apply(a,o)}catch(m){throw c(n+"err",[o,a,m],s,u),m}finally{c(n+"end",[o,a,p],s,u)}}return a(t)?t:(n||(n=""),nrWrapper[p]=t,o(t,nrWrapper,e),nrWrapper)}function r(e,t,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<t.length;u++)f=t[u],c=e[f],a(c)||(e[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!m||t){var c=m;m=!0;try{e.emit(n,r,o,t,a)}catch(f){i([f,n,r,o],e)}m=c}}return e||(e=s),n.inPlace=r,n.flag=p,n}function i(e,t){t||(t=s);try{t.emit("internal-error",e)}catch(n){}}function o(e,t,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(e);return r.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(o){i([o],n)}for(var a in e)l.call(e,a)&&(t[a]=e[a]);return t}function a(e){return!(e&&e instanceof Function&&e.apply&&!e[p])}function c(e,t){var n=t(e);return n[p]=e,o(e,n,s),n}function f(e,t,n){var r=e[t];e[t]=c(r,n)}function u(){for(var e=arguments.length,t=new Array(e),n=0;n<e;++n)t[n]=arguments[n];return t}var s=e("ee"),d=e(7),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;t.exports=r,t.exports.wrapFunction=c,t.exports.wrapInPlace=f,t.exports.argsToArray=u},{}]},{},["loader"]);</script> <meta property="og:url" content="http://futcash.com.br/"/> <link rel="shortcut icon" href="//static-public.klickpages.com.br/uploads/media/file/1408108/football_(2).png"/> <link rel="stylesheet" media="screen" href="//static-public.klickpages.com.br/app/assets/stylesheets/publish.css?v=1611612343"/> <link href="https://fonts.googleapis.com/css?family=Dosis:300,500,700|Just+Another+Hand|Lato:%27100italic%27,%27300italic%27,%27400italic%27,%27700italic%27,%27900italic%27,100,300,400,700,900|Lora:%27400italic%27,%27700italic%27,400,700|Montserrat:300,400,500,700|Oswald:300,400,700|Open+Sans:%27300italic%27,%27400italic%27,%27600italic%27,%27700italic%27,300,400,600,700|Open+Sans+Condensed:%27300italic%27,300,700|Roboto:%27100italic%27,%27300italic%27,%27400italic%27,%27500italic%27,%27700italic%27,%27900italic%27,100,300,400,500,700,900|Raleway:%27300italic%27,%27400italic%27,%27700italic%27,300,400,700|Nunito:%27wght@200%27,400,700,800" rel="stylesheet"> <script type="text/javascript" src="//static-public.klickpages.com.br/app/assets/javascripts/public/js/include.js?v=1611612343">
+//<![CDATA[
+
+//]]>
+</script> <script type="text/javascript" src="https://apis.google.com/js/plus.js" async></script> <script type="text/javascript" src="https://apis.google.com/js/plusone.js" async></script> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KL8Z453');</script> <style type="text/css"></style> </head> <body> <script>
+(function(window, document, deliveryUrl, accessCookie, pageId) {
+  'use strict';
+
+  window.klickart.analytics = {};
+  window.klickart.analytics.deliveryUrl = deliveryUrl;
+  window.klickart.analytics.sessionId = pageId
+    + '-'
+    + Math.random().toString(16).substr(2, 14)
+    + '-'
+    + Date.now().toString(16);
+
+  function checkDevice() {
+    var mobileRegex = /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini|Tablet|iPad/i;
+    return mobileRegex.test(window.navigator.userAgent) ? "mobile" : "desktop"
+  }
+
+  var accesses = Cookies.get(accessCookie),
+    hasPreviousAccess = false,
+    timeElapsed = 0,
+    client = new XMLHttpRequest();
+
+  if (accesses) {
+    accesses = JSON.parse(accesses);
+    hasPreviousAccess = accesses.indexOf(pageId) != -1;
+  }
+
+  if (!hasPreviousAccess) {
+    accesses = accesses || [];
+    accesses.push(pageId);
+    Cookies.set(accessCookie, JSON.stringify(accesses));
+  }
+
+  client.open("POST", deliveryUrl, false);
+  client.send(JSON.stringify({
+    'previousAccess': hasPreviousAccess,
+    'device': checkDevice(),
+    'sessionId': window.klickart.analytics.sessionId,
+  }));
+
+  window.onpagehide = function(e) {
+    var timeElapsed = window.performance.now()/1000,
+        dataObject = {
+      'timeElapsed': timeElapsed,
+      'sessionId': window.klickart.analytics.sessionId,
+      'clickIdentifier': window.klickart.clickIdentifier,
+    };
+
+    if(window.klickart.subscriptionEmail) {
+       dataObject['subscriptionEmail'] = window.klickart.subscriptionEmail;
+    }
+
+    client.open("POST", deliveryUrl, false);
+    client.send(JSON.stringify(dataObject));
+  };
+})(window, document, 'https://qhx31sr78i.execute-api.us-east-1.amazonaws.com/prod/v1/copia-1610663703-4318c203-45ee-4931-8975-17a0d79a02b5-1610663703/hits', 'analytics_access_cookie', '1186936');
+</script> <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2627671220662162');
+  fbq('track', 'PageView');
+</script> <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2627671220662162&ev=PageView&noscript=1"/></noscript> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL8Z453" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>
+window.setCookie_ = function (cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+window.getCookie_ = function (cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+</script> <style>
+ #_form_3_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; }
+ #_form_3_ * { outline:0; }
+ ._form_hide { display:none; visibility:hidden; }
+ ._form_show { display:block; visibility:visible; }
+ #_form_3_._form-top { top:0; }
+ #_form_3_._form-bottom { bottom:0; }
+ #_form_3_._form-left { left:0; }
+ #_form_3_._form-right { right:0; }
+ #_form_3_ input[type="text"],#_form_3_ input[type="date"],#_form_3_ textarea { padding:6px; height:auto; border:#979797 1px solid; border-radius:4px; color:#000 !important; font-size:14px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+ #_form_3_ textarea { resize:none; }
+ #_form_3_ ._submit { -webkit-appearance:none; cursor:pointer; font-family:arial, sans-serif; font-size:14px; text-align:center; background:#030303 !important; border:0 !important; -moz-border-radius:10px !important; -webkit-border-radius:10px !important; border-radius:10px !important; color:#fff !important; padding:12px !important; }
+ #_form_3_ ._close-icon { cursor:pointer; background-image:url('https://d226aj4ao1t61q.cloudfront.net/esfkyjh1u_forms-close-dark.png'); background-repeat:no-repeat; background-size:14.2px 14.2px; position:absolute; display:block; top:11px; right:9px; overflow:hidden; width:16.2px; height:16.2px; }
+ #_form_3_ ._close-icon:before { position:relative; }
+ #_form_3_ ._form-body { margin-bottom:30px; }
+ #_form_3_ ._form-image-left { width:150px; float:left; }
+ #_form_3_ ._form-content-right { margin-left:164px; }
+ #_form_3_ ._form-branding { color:#fff; font-size:10px; clear:both; text-align:left; margin-top:30px; font-weight:100; }
+ #_form_3_ ._form-branding ._logo { display:block; width:130px; height:14px; margin-top:6px; background-image:url('https://d226aj4ao1t61q.cloudfront.net/hh9ujqgv5_aclogo_li.png'); background-size:130px auto; background-repeat:no-repeat; }
+ #_form_3_ ._form-label,#_form_3_ ._form_element ._form-label { font-weight:bold; margin-bottom:5px; display:block; }
+ #_form_3_._dark ._form-branding { color:#333; }
+ #_form_3_._dark ._form-branding ._logo { background-image:url('https://d226aj4ao1t61q.cloudfront.net/jftq2c8s_aclogo_dk.png'); }
+ #_form_3_ ._form_element { position:relative; margin-bottom:10px; font-size:0; max-width:100%; }
+ #_form_3_ ._form_element * { font-size:14px; }
+ #_form_3_ ._form_element._clear { clear:both; width:100%; float:none; }
+ #_form_3_ ._form_element._clear:after { clear:left; }
+ #_form_3_ ._form_element input[type="text"],#_form_3_ ._form_element input[type="date"],#_form_3_ ._form_element select,#_form_3_ ._form_element textarea:not(.g-recaptcha-response) { display:block; width:100%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+ #_form_3_ ._field-wrapper { position:relative; }
+ #_form_3_ ._inline-style { float:left; }
+ #_form_3_ ._inline-style input[type="text"] { width:150px; }
+ #_form_3_ ._inline-style:not(._clear) + ._inline-style:not(._clear) { margin-left:20px; }
+ #_form_3_ ._form_element img._form-image { max-width:100%; }
+ #_form_3_ ._clear-element { clear:left; }
+ #_form_3_ ._full_width { width:100%; }
+ #_form_3_ ._form_full_field { display:block; width:100%; margin-bottom:10px; }
+ #_form_3_ input[type="text"]._has_error,#_form_3_ textarea._has_error { border:#f37c7b 1px solid; }
+ #_form_3_ input[type="checkbox"]._has_error { outline:#f37c7b 1px solid; }
+ #_form_3_ ._error { display:block; position:absolute; font-size:14px; z-index:10000001; }
+ #_form_3_ ._error._above { padding-bottom:4px; bottom:39px; right:0; }
+ #_form_3_ ._error._below { padding-top:4px; top:100%; right:0; }
+ #_form_3_ ._error._above ._error-arrow { bottom:0; right:15px; border-left:5px solid transparent; border-right:5px solid transparent; border-top:5px solid #f37c7b; }
+ #_form_3_ ._error._below ._error-arrow { top:0; right:15px; border-left:5px solid transparent; border-right:5px solid transparent; border-bottom:5px solid #f37c7b; }
+ #_form_3_ ._error-inner { padding:8px 12px; background-color:#f37c7b; font-size:14px; font-family:arial, sans-serif; color:#fff; text-align:center; text-decoration:none; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; }
+ #_form_3_ ._error-inner._form_error { margin-bottom:5px; text-align:left; }
+ #_form_3_ ._button-wrapper ._error-inner._form_error { position:static; }
+ #_form_3_ ._error-inner._no_arrow { margin-bottom:10px; }
+ #_form_3_ ._error-arrow { position:absolute; width:0; height:0; }
+ #_form_3_ ._error-html { margin-bottom:10px; }
+ .pika-single { z-index:10000001 !important; }
+ #_form_3_ input[type="text"].datetime_date { display:inline; }
+ #_form_3_ select.datetime_time { display:inline; }
+ @media all and (min-width:320px) and (max-width:667px) { ::-webkit-scrollbar { display:none; }
+ #_form_3_ { margin:0; width:100%; min-width:100%; max-width:100%; box-sizing:border-box; }
+ #_form_3_ * { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size:1em; }
+ #_form_3_ ._form-content { margin:0; width:100%; }
+ #_form_3_ ._form-inner { display:block; min-width:100%; }
+ #_form_3_ ._form-title,#_form_3_ ._inline-style { margin-top:0; margin-right:0; margin-left:0; }
+ #_form_3_ ._form-title { font-size:1.2em; }
+ #_form_3_ ._form_element { margin:0 0 20px; padding:0; width:100%; }
+ #_form_3_ ._form-element,#_form_3_ ._inline-style,#_form_3_ input[type="text"],#_form_3_ label,#_form_3_ p,#_form_3_ textarea:not(.g-recaptcha-response) { float:none; display:block; width:100%; }
+ #_form_3_ ._row._checkbox-radio label { display:inline; }
+ #_form_3_ ._row,#_form_3_ p,#_form_3_ label { margin-bottom:0.7em; width:100%; }
+ #_form_3_ ._row input[type="checkbox"],#_form_3_ ._row input[type="radio"] { margin:0 !important; vertical-align:middle !important; }
+ #_form_3_ ._row input[type="checkbox"] + span label { display:inline; }
+ #_form_3_ ._row span label { margin:0 !important; width:initial !important; vertical-align:middle !important; }
+ #_form_3_ ._form-image { max-width:100%; height:auto !important; }
+ #_form_3_ input[type="text"] { padding-left:10px; padding-right:10px; font-size:16px; line-height:1.3em; -webkit-appearance:none; }
+ #_form_3_ input[type="radio"],#_form_3_ input[type="checkbox"] { display:inline-block; width:1.3em; height:1.3em; font-size:1em; margin:0 0.3em 0 0; vertical-align:baseline; }
+ #_form_3_ button[type="submit"] { padding:20px; font-size:1.5em; }
+ #_form_3_ ._inline-style { margin:20px 0 0 !important; }
+ }
+ #_form_3_ { position:relative; text-align:left; margin:25px auto 0; padding:20px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; *zoom:1; background:#a19898 !important; border:1px solid #f5f5f5 !important; -moz-border-radius:13px !important; -webkit-border-radius:13px !important; border-radius:13px !important; color:#fafafa !important; }
+ #_form_3_._inline-form,#_form_3_._inline-form ._form-content,#_form_3_._inline-form input,#_form_3_._inline-form ._submit { font-family:"IBM Plex Sans", Helvetica, sans-serif, 'IBM Plex Sans', arial, sans-serif; }
+ #_form_3_ ._form-title { font-size:22px; line-height:22px; font-weight:600; margin-bottom:0; }
+ #_form_3_:before,#_form_3_:after { content:" "; display:table; }
+ #_form_3_:after { clear:both; }
+ #_form_3_._inline-style { width:auto; display:inline-block; }
+ #_form_3_._inline-style input[type="text"],#_form_3_._inline-style input[type="date"] { padding:10px 12px; }
+ #_form_3_._inline-style button._inline-style { position:relative; top:27px; }
+ #_form_3_._inline-style p { margin:0; }
+ #_form_3_._inline-style ._button-wrapper { position:relative; margin:27px 12.5px 0 20px; }
+ #_form_3_ ._form-thank-you { position:relative; left:0; right:0; text-align:center; font-size:18px; }
+ @media all and (min-width:320px) and (max-width:667px) { #_form_3_._inline-form._inline-style ._inline-style._button-wrapper { margin-top:20px !important; margin-left:0 !important; }
+ }
+
+</style> <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&display=swap" rel="stylesheet"> <div class='popup'> <div class='popup-overlay'> <div class='popup-window'> <img alt='Grupo Telegram Free' src='https://static-public.klickpages.com.br/uploads/media/file/2809713/pop_up_de_sada_futcash_01_novo-02.png'/> <div class='close'> <div class='xPart part1'></div> <div class='xPart part2'></div> </div> <div style="text-align: center;" id='form-father'> <form method="POST" action="https://talysonbh.activehosted.com/proc.php" id="_form_3_" class="_form _form_3 _inline-form _inline-style " novalidate> <input type="hidden" name="u" value="3"/> <input type="hidden" name="f" value="3"/> <input type="hidden" name="s"/> <input type="hidden" name="c" value="0"/> <input type="hidden" name="m" value="0"/> <input type="hidden" name="act" value="sub"/> <input type="hidden" name="v" value="2"/> <div class="_form-content"> <div class="_form_element _x54348702 _inline-style _clear"> <div class="_form-title"> Cadastre-se para receber acesso ao Grupo Free </div> </div> <div class="_form_element _x04774267 _inline-style "> <div class="_field-wrapper"> <input type="text" name="fullname" placeholder="Nome Completo*"/> </div> </div> <div class="_form_element _x00458205 _inline-style "> <div class="_field-wrapper"> <input type="text" name="email" placeholder="E-mail*" required/> </div> </div> <div class="_button-wrapper _inline-style"> <button id="_form_3_submit" class="_submit" type="submit"> Enviar </button> </div> <div class="_clear-element"> </div> </div> <div class="_form-thank-you" style="display:none;"> </div> </form> </div> </div> </div> </div> <script type="text/javascript">
+window.cfields = [];
+window._show_thank_you = function(id, message, trackcmp_url, email) {
+  var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');
+  form.querySelector('._form-content').style.display = 'none';
+  thank_you.innerHTML = message;
+  thank_you.style.display = 'block';
+  const vgoAlias = typeof visitorGlobalObjectAlias === 'undefined' ? 'vgo' : visitorGlobalObjectAlias;
+  var visitorObject = window[vgoAlias];
+  if (email && typeof visitorObject !== 'undefined') {
+    visitorObject('setEmail', email);
+    visitorObject('update');
+  } else if (typeof(trackcmp_url) != 'undefined' && trackcmp_url) {
+    // Site tracking URL to use after inline form submission.
+    _load_script(trackcmp_url);
+  }
+  if (typeof window._form_callback !== 'undefined') window._form_callback(id);
+};
+window._show_error = function(id, message, html) {
+  var form = document.getElementById('_form_' + id + '_'), err = document.createElement('div'), button = form.querySelector('button'), old_error = form.querySelector('._form_error');
+  if (old_error) old_error.parentNode.removeChild(old_error);
+  err.innerHTML = message;
+  err.className = '_error-inner _form_error _no_arrow';
+  var wrapper = document.createElement('div');
+  wrapper.className = '_form-inner';
+  wrapper.appendChild(err);
+  button.parentNode.insertBefore(wrapper, button);
+  document.querySelector('[id^="_form"][id$="_submit"]').disabled = false;
+  if (html) {
+    var div = document.createElement('div');
+    div.className = '_error-html';
+    div.innerHTML = html;
+    err.appendChild(div);
+  }
+};
+window._load_script = function(url, callback) {
+  var head = document.querySelector('head'), script = document.createElement('script'), r = false;
+  script.type = 'text/javascript';
+  script.charset = 'utf-8';
+  script.src = url;
+  if (callback) {
+    script.onload = script.onreadystatechange = function() {
+      if (!r && (!this.readyState || this.readyState == 'complete')) {
+        r = true;
+        callback();
+      }
+    };
+  }
+  head.appendChild(script);
+};
+(function() {
+  if (window.location.search.search("excludeform") !== -1) return false;
+  var getCookie = function(name) {
+    var match = document.cookie.match(new RegExp('(^|; )' + name + '=([^;]+)'));
+    return match ? match[2] : null;
+  }
+  var setCookie = function(name, value) {
+    var now = new Date();
+    var time = now.getTime();
+    var expireTime = time + 1000 * 60 * 60 * 24 * 365;
+    now.setTime(expireTime);
+    document.cookie = name + '=' + value + '; expires=' + now + ';path=/';
+  }
+      var addEvent = function(element, event, func) {
+    if (element.addEventListener) {
+      element.addEventListener(event, func);
+    } else {
+      var oldFunc = element['on' + event];
+      element['on' + event] = function() {
+        oldFunc.apply(this, arguments);
+        func.apply(this, arguments);
+      };
+    }
+  }
+  var _removed = false;
+  var form_to_submit = document.getElementById('_form_3_');
+  var allInputs = form_to_submit.querySelectorAll('input, select, textarea'), tooltips = [], submitted = false;
+
+  var getUrlParam = function(name) {
+    var regexStr = '[\?&]' + name + '=([^&#]*)';
+    var results = new RegExp(regexStr, 'i').exec(window.location.href);
+    return results != undefined ? decodeURIComponent(results[1]) : false;
+  };
+
+  for (var i = 0; i < allInputs.length; i++) {
+    var regexStr = "field\\[(\\d+)\\]";
+    var results = new RegExp(regexStr).exec(allInputs[i].name);
+    if (results != undefined) {
+      allInputs[i].dataset.name = window.cfields[results[1]];
+    } else {
+      allInputs[i].dataset.name = allInputs[i].name;
+    }
+    var fieldVal = getUrlParam(allInputs[i].dataset.name);
+
+    if (fieldVal) {
+      if (allInputs[i].dataset.autofill === "false") {
+        continue;
+      }
+      if (allInputs[i].type == "radio" || allInputs[i].type == "checkbox") {
+        if (allInputs[i].value == fieldVal) {
+          allInputs[i].checked = true;
+        }
+      } else {
+        allInputs[i].value = fieldVal;
+      }
+    }
+  }
+
+  var remove_tooltips = function() {
+    for (var i = 0; i < tooltips.length; i++) {
+      tooltips[i].tip.parentNode.removeChild(tooltips[i].tip);
+    }
+    tooltips = [];
+  };
+  var remove_tooltip = function(elem) {
+    for (var i = 0; i < tooltips.length; i++) {
+      if (tooltips[i].elem === elem) {
+        tooltips[i].tip.parentNode.removeChild(tooltips[i].tip);
+        tooltips.splice(i, 1);
+        return;
+      }
+    }
+  };
+  var create_tooltip = function(elem, text) {
+    var tooltip = document.createElement('div'), arrow = document.createElement('div'), inner = document.createElement('div'), new_tooltip = {};
+    if (elem.type != 'radio' && elem.type != 'checkbox') {
+      tooltip.className = '_error';
+      arrow.className = '_error-arrow';
+      inner.className = '_error-inner';
+      inner.innerHTML = text;
+      tooltip.appendChild(arrow);
+      tooltip.appendChild(inner);
+      elem.parentNode.appendChild(tooltip);
+    } else {
+      tooltip.className = '_error-inner _no_arrow';
+      tooltip.innerHTML = text;
+      elem.parentNode.insertBefore(tooltip, elem);
+      new_tooltip.no_arrow = true;
+    }
+    new_tooltip.tip = tooltip;
+    new_tooltip.elem = elem;
+    tooltips.push(new_tooltip);
+    return new_tooltip;
+  };
+  var resize_tooltip = function(tooltip) {
+    var rect = tooltip.elem.getBoundingClientRect();
+    var doc = document.documentElement, scrollPosition = rect.top - ((window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0));
+    if (scrollPosition < 40) {
+      tooltip.tip.className = tooltip.tip.className.replace(/ ?(_above|_below) ?/g, '') + ' _below';
+    } else {
+      tooltip.tip.className = tooltip.tip.className.replace(/ ?(_above|_below) ?/g, '') + ' _above';
+    }
+  };
+  var resize_tooltips = function() {
+    if (_removed) return;
+    for (var i = 0; i < tooltips.length; i++) {
+      if (!tooltips[i].no_arrow) resize_tooltip(tooltips[i]);
+    }
+  };
+  var validate_field = function(elem, remove) {
+    var tooltip = null, value = elem.value, no_error = true;
+    remove ? remove_tooltip(elem) : false;
+    if (elem.type != 'checkbox') elem.className = elem.className.replace(/ ?_has_error ?/g, '');
+    if (elem.getAttribute('required') !== null) {
+      if (elem.type == 'radio' || (elem.type == 'checkbox' && /any/.test(elem.className))) {
+        var elems = form_to_submit.elements[elem.name];
+        if (!(elems instanceof NodeList || elems instanceof HTMLCollection) || elems.length <= 1) {
+          no_error = elem.checked;
+        }
+        else {
+          no_error = false;
+          for (var i = 0; i < elems.length; i++) {
+            if (elems[i].checked) no_error = true;
+          }
+        }
+        if (!no_error) {
+          tooltip = create_tooltip(elem, "Por favor, selecione uma opção.");
+        }
+      } else if (elem.type =='checkbox') {
+        var elems = form_to_submit.elements[elem.name], found = false, err = [];
+        no_error = true;
+        for (var i = 0; i < elems.length; i++) {
+          if (elems[i].getAttribute('required') === null) continue;
+          if (!found && elems[i] !== elem) return true;
+          found = true;
+          elems[i].className = elems[i].className.replace(/ ?_has_error ?/g, '');
+          if (!elems[i].checked) {
+            no_error = false;
+            elems[i].className = elems[i].className + ' _has_error';
+            err.push("Marcar %s é necessário".replace("%s", elems[i].value));
+          }
+        }
+        if (!no_error) {
+          tooltip = create_tooltip(elem, err.join('<br/>'));
+        }
+      } else if (elem.tagName == 'SELECT') {
+        var selected = true;
+        if (elem.multiple) {
+          selected = false;
+          for (var i = 0; i < elem.options.length; i++) {
+            if (elem.options[i].selected) {
+              selected = true;
+              break;
+            }
+          }
+        } else {
+          for (var i = 0; i < elem.options.length; i++) {
+            if (elem.options[i].selected && !elem.options[i].value) {
+              selected = false;
+            }
+          }
+        }
+        if (!selected) {
+          elem.className = elem.className + ' _has_error';
+          no_error = false;
+          tooltip = create_tooltip(elem, "Por favor, selecione uma opção.");
+        }
+      } else if (value === undefined || value === null || value === '') {
+        elem.className = elem.className + ' _has_error';
+        no_error = false;
+        tooltip = create_tooltip(elem, "Este campo é necessário.");
+      }
+    }
+    if (no_error && elem.name == 'email') {
+      if (!value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i)) {
+        elem.className = elem.className + ' _has_error';
+        no_error = false;
+        tooltip = create_tooltip(elem, "Digite um e-mail válido");
+      }
+    }
+    if (no_error && /date_field/.test(elem.className)) {
+      if (!value.match(/^\d\d\d\d-\d\d-\d\d$/)) {
+        elem.className = elem.className + ' _has_error';
+        no_error = false;
+        tooltip = create_tooltip(elem, "Digite uma data válida.");
+      }
+    }
+    tooltip ? resize_tooltip(tooltip) : false;
+    return no_error;
+  };
+  var needs_validate = function(el) {
+        if(el.getAttribute('required') !== null){
+            return true
+        }
+        if(el.name === 'email' && el.value !== ""){
+            return true
+        }
+        return false
+  };
+  var validate_form = function(e) {
+    var err = form_to_submit.querySelector('._form_error'), no_error = true;
+    if (!submitted) {
+      submitted = true;
+      for (var i = 0, len = allInputs.length; i < len; i++) {
+        var input = allInputs[i];
+        if (needs_validate(input)) {
+          if (input.type == 'text') {
+            addEvent(input, 'blur', function() {
+              this.value = this.value.trim();
+              validate_field(this, true);
+            });
+            addEvent(input, 'input', function() {
+              validate_field(this, true);
+            });
+          } else if (input.type == 'radio' || input.type == 'checkbox') {
+            (function(el) {
+              var radios = form_to_submit.elements[el.name];
+              for (var i = 0; i < radios.length; i++) {
+                addEvent(radios[i], 'click', function() {
+                  validate_field(el, true);
+                });
+              }
+            })(input);
+          } else if (input.tagName == 'SELECT') {
+            addEvent(input, 'change', function() {
+              validate_field(this, true);
+            });
+          } else if (input.type == 'textarea'){
+            addEvent(input, 'input', function() {
+              validate_field(this, true);
+            });
+          }
+        }
+      }
+    }
+    remove_tooltips();
+    for (var i = 0, len = allInputs.length; i < len; i++) {
+      var elem = allInputs[i];
+      if (needs_validate(elem)) {
+        if (elem.tagName.toLowerCase() !== "select") {
+          elem.value = elem.value.trim();
+        }
+        validate_field(elem) ? true : no_error = false;
+      }
+    }
+    if (!no_error && e) {
+      e.preventDefault();
+    }
+    resize_tooltips();
+    return no_error;
+  };
+  addEvent(window, 'resize', resize_tooltips);
+  addEvent(window, 'scroll', resize_tooltips);
+  window._old_serialize = null;
+  if (typeof serialize !== 'undefined') window._old_serialize = window.serialize;
+  _load_script("https://d3rxaij56vjege.cloudfront.net/form-serialize/0.3/serialize.min.js", function() {
+    window._form_serialize = window.serialize;
+    if (window._old_serialize) window.serialize = window._old_serialize;
+  });
+  
+
+
+
+  var form_submit = function(e) {
+    e.preventDefault();
+    if (validate_form()) {
+      setCookie_('fcexpopup915478', 'true', 10);
+      // use this trick to get the submit button & disable it using plain javascript
+      document.querySelector('#_form_3_submit').disabled = true;
+            var serialized = _form_serialize(document.getElementById('_form_3_'));
+      var err = form_to_submit.querySelector('._form_error');
+      err ? err.parentNode.removeChild(err) : false;
+      _load_script('https://talysonbh.activehosted.com/proc.php?' + serialized + '&jsonp=true');
+            
+    }
+    return false;
+  };
+  addEvent(form_to_submit, 'submit', form_submit);
+})();
+
+</script> <script type="text/javascript">
+'use strict';
+var check = false;
+window.addEventListener('load', function(e) {
+
+document.addEventListener('mouseout', function(e) {
+  if (!e.toElement && !e.relatedTarget && !check && getCookie_('fcexpopup915478') !== 'true') {
+    document.querySelector('.popup').classList.add('on');
+    check = true;
+  }
+});
+
+var close = document.querySelector('.close');
+close.addEventListener('click', function(e) {
+  document.querySelector('.popup').classList.remove('on');
+});
+});
+</script> <style>
+
+.popup {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.popup.on {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: auto !important;
+  position: fixed;
+  z-index: 10000;
+}
+
+.popup-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+  margin: auto !important;
+  position: relative;
+}
+
+.popup-window {
+  position: relative;
+  width: calc(810px * 1.1) !important;
+  height: calc(520px * 1.1) !important;
+  margin: auto;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.popup-window > img {
+  width: calc(810px * 1.1) !important;
+  height: calc(520px * 1.1) !important;
+  padding: 0;
+  margin: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.close {
+  position: absolute;
+  top: 8%;
+  right: 7%;
+  z-index: 10;
+  width: 21px;
+  height: 21px;
+}
+
+.close:hover {
+  cursor: pointer;  
+}
+
+.xPart {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 2px;
+  background-color: white;
+}
+
+.part1 {
+  transform: rotate(45deg);
+}
+
+.part2 {
+  transform: rotate(-45deg);
+}
+
+#form-father {
+  margin: 0;
+  padding: 0;
+  position: absolute !important;
+  top: 53.85% !important;
+  height: 37.00% !important;
+  left: 55.93% !important;
+  width: 40.1% !important;
+  box-sizing: border-box !important;
+}
+
+#_form_3_ {
+  width: 100%;
+  height: 100%;
+  margin: auto !important;
+  box-sizing: border-box !important;
+  border-radius: 10px !important;
+}
+
+._form-title {
+  margin-bottom: 10px !important;
+  text-align: center !important;
+  font-weight: 700 !important;
+  font-size: 1.85rem !important; 
+  line-height: 1.2 !important;
+}
+
+._form-content {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+}
+
+._form_element._x00458205,
+._form_element._x04774267 {
+  margin: auto 3px !important;
+}
+
+._form_element._x00458205 input,
+._form_element._x04774267 input {
+  padding: 10px !important;
+  font-size: 1.2em !important;
+}
+
+._button-wrapper {
+  margin: auto !important;
+  width: 100% !important;
+  position: relative !important;
+  display: block !important;
+}
+
+#_form_3_ ._submit {
+  padding: 14px 38px !important;
+  margin: 5% auto !important;
+  position: relative !important;
+  display: block !important;
+  font-size: 1.25em !important;
+  font-weight: 700 !important;
+}
+</style> <div id="fb-root"></div> <script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script> <script type="text/javascript" src="//static-public.klickpages.com.br/app/assets/javascripts/public/js/body/begin.js?v=1611612343">
+//<![CDATA[
+
+//]]>
+</script> <div klickart-sections> <div id="section-10293799" klickart-edit-component-info=""> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/1234/styles/main.css?v=1564688885"> <section class="counter template-erico" style='background-attachment: fixed; background-image: url("//static-public.klickpages.com.br/uploads/media/file/1103148/dinheiro-notas-real-pixabay-2.jpg");' data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2020-01-15T23:03:19.500Z","timezone":"-03:00","redirect":false,"url":""}'><div class="component-bg" klickart-edit-background-mask-visible="true" style="background-color: rgb(0, 0, 0);"></div> <div class="container"> <div class="txt" style="font-size: 14px; line-height: 16.8px;">O preço promocional acaba em: </div> <div class="countdown clearfix timer" data-klickart-timer-options='{"selectedType":"time","hours":0,"minutes":"15","seconds":0,"dateTime":"2020-01-22T14:59:00.000Z","timezone":"-03:00","url":"","redirect":false}'> <div class="item days" style="background-attachment: scroll;"> <div class="num" data-timer-replace="%D" style="color: rgb(255, 228, 24);">00</div> <div class="name">Dias </div> </div> <div class="item" style="background-attachment: scroll;"> <div class="num" data-timer-replace="%H" style="color: rgb(255, 228, 24);">00</div> <div class="name">Horas </div> </div> <div class="item" style="background-attachment: scroll;"> <div class="num" data-timer-replace="%M" style="color: rgb(255, 228, 24);">14</div> <div class="name">Minutos </div> </div> <div class="item" style="background-attachment: scroll;"> <div class="num" data-timer-replace="%S" style="color: rgb(255, 228, 24);">39</div> <div class="name">Segundos </div> </div> </div> <div class="txt" style="font-size: 14px;">NÃO FIQUE DE FORA!!<b class="medium-b"></b> </div> </div></section> </div><div id="section-10293791" klickart-edit-component-info=""> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/920/styles/main.css?v=1532374120"> <section style='background-attachment: fixed; background-image: url("//static-public.klickpages.com.br/uploads/media/file/1396370/futebol-capas-1100594_widelg.png");' class="video template-ivan bottom" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-08-26T21:49:47.324Z","timezone":"-03:00"}'><div class="component-bg" klickart-edit-background-mask-visible="true" style="background-color: rgba(0, 0, 0, 0.9);"></div> <div class="container"> <h2 class="title Medium Medium-rich" style="font-family: Montserrat, sans-serif; color: rgb(255, 228, 24);"><b class="medium-b"><font class="klickart-font" style="color: rgb(248, 248, 248);">Receba sinais e tenha lucro no mercado de</font> TRADER ESPORTIVO <font class="klickart-font" style="color: rgb(248, 248, 248);">através do seu</font> CELULAR!<br><font class="klickart-font" style="" color="#ff7000"></font></b></h2> <div class="video-container"><div class="video-content embed-responsive embed-responsive-16by9" style="overflow: hidden;"><iframe width="560" height="315" src="https://www.youtube.com/embed/XvOuMg18Duc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></div> <div class="form-content" data-klickart-delay-options='{"enabled":false}'> <a class="general-button modal-trigger" href="https://pay.hotmart.com/K42199269P?checkoutMode=10" klickart-edit-not-highlight="" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-linkebpg8a08dd400" style="background-attachment: scroll; background-color: rgb(34, 175, 117); border-radius: 4px;"><span style="font-family: Montserrat, sans-serif;"><b>QUERO ENTRAR PARA O TIME</b><br></span></a> </div> </div></section> </div><div id="section-10293792" klickart-edit-component-info=""> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/921/styles/main.css?v=1532374462"> <section class="reasons template-ivan bottom" style='background-attachment: fixed; background-image: url("//static-public.klickpages.com.br/uploads/media/file/1396370/futebol-capas-1100594_widelg.png");' data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-08-26T21:49:47.385Z","timezone":"-03:00"}'><div class="component-bg" style="background-color: rgba(255, 255, 255, 0.83);" klickart-edit-background-mask-visible="true"></div> <div class="container"> <h2 class="title" style="text-align: center; line-height: 53.9px; color: rgb(255, 255, 255); background-color: rgba(73, 46, 46, 0); font-family: Montserrat, sans-serif; font-size: 58px;"> <font class="klickart-font-bg klickart-font" style="background-color: rgba(73, 46, 46, 0); color: rgb(0, 0, 0);">O QUE É O </font><font class="klickart-font-bg klickart-font" style="background-color: rgba(73, 46, 46, 0); color: rgb(0, 0, 0);"><b class="medium-b">FUTCASH?</b></font> </h2> <div class="description" style="text-align: center; color: rgb(0, 0, 0);"> <font class="klickart-font-bg" style="background-color: rgba(255, 255, 255, 0);">Somos uma equipe especializada em fontes de renda, e te mostraremos na prática como obter lucro no mercado de <span class="medium-b"><font class="klickart-font" style="color: rgb(227, 151, 5);"><b><font class="klickart-font" style="color: rgb(34, 175, 117);">TRADER ESPORTIVO.</font></b><font class="klickart-font"> </font></font></span><font class="klickart-font"><b class="medium-b">Esqueça seu time, você nem precisa gostar ou acompanhar os esportes!</b></font> Te ensinaremos o básico para criar sua conta na corretora e o restante será através dos sinais de nossos especialistas.</font><div><font class="klickart-font-bg" style="background-color: rgba(255, 255, 255, 0);"><br></font></div> <div><b><i>#futcash #vemcomafut</i></b></div> </div> </div></section> </div><div id="section-10293798" klickart-edit-component-info=""> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/1178/styles/main.css?v=1554298149"> <section class="reasons template-henrique bottom" style="background-attachment: fixed;" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-08-26T21:49:47.453Z","timezone":"-03:00"}'><div class="component-bg" style="background-color: rgba(255, 255, 255, 1.0);" klickart-edit-background-mask-visible="true"></div> <div class="container"> <h2 class="title" style="background-color: rgba(220, 45, 45, 0); font-family: Montserrat, sans-serif; color: rgb(0, 0, 0);"><b class="medium-b"><font class="klickart-current-selection klickart-font-bg" style="background-color: rgba(189, 64, 64, 0);">O QUE VOCÊ VAI <font class="klickart-font-bg" style="background-color: rgb(255, 228, 24);">APRENDER</font> </font><font class="klickart-current-selection klickart-font-bg" style="background-color: rgba(189, 64, 64, 0);">?</font></b></h2> <ul class="list" id="klickart-collection-21urqdc3odu000"> <li> <span class="ico"><svg fill="#31c455" klickart-edit-icon="svg" viewbox="349.373 334.498 16 16"><path d="M357.373, 334.498c-4.419, 0-8, 3.582-8, 8s3.581, 8, 8, 8c4.418, 0, 8-3.582, 8-8C365.373, 338.079, 361.791, 334.498, 357.373, 334.498z M361.864, 340.313l-5.068, 5.889c-0.182, 0.212-0.442, 0.34-0.721, 0.354s-0.551-0.085-0.755-0.275l-2.349-2.151c-0.201-0.183-0.323-0.437-0.337-0.708s0.081-0.536, 0.263-0.737l0.225-0.249c0.372-0.412, 1.006-0.452, 1.427-0.089l1.282, 1.104l4.245-4.708c0.372-0.413, 1.005-0.453, 1.426-0.091l0.254, 0.218c0.206, 0.177, 0.333, 0.429, 0.354, 0.699S362.042, 340.107, 361.864, 340.313z"></path></svg></span><span class="txt">COMO CRIAR CONTA NA CORRETORA</span> </li> <li style="" class="sortable-chosen"> <span class="ico"><svg fill="#31c455" klickart-edit-icon="svg" viewbox="349.373 334.498 16 16"><path d="M357.373, 334.498c-4.419, 0-8, 3.582-8, 8s3.581, 8, 8, 8c4.418, 0, 8-3.582, 8-8C365.373, 338.079, 361.791, 334.498, 357.373, 334.498z M361.864, 340.313l-5.068, 5.889c-0.182, 0.212-0.442, 0.34-0.721, 0.354s-0.551-0.085-0.755-0.275l-2.349-2.151c-0.201-0.183-0.323-0.437-0.337-0.708s0.081-0.536, 0.263-0.737l0.225-0.249c0.372-0.412, 1.006-0.452, 1.427-0.089l1.282, 1.104l4.245-4.708c0.372-0.413, 1.005-0.453, 1.426-0.091l0.254, 0.218c0.206, 0.177, 0.333, 0.429, 0.354, 0.699S362.042, 340.107, 361.864, 340.313z"></path></svg></span><span class="txt" style="">COMO FAZER DEPÓSITOS</span> </li> <li style=""> <span class="ico"><svg fill="#31c455" klickart-edit-icon="svg" viewbox="349.373 334.498 16 16"><path d="M357.373, 334.498c-4.419, 0-8, 3.582-8, 8s3.581, 8, 8, 8c4.418, 0, 8-3.582, 8-8C365.373, 338.079, 361.791, 334.498, 357.373, 334.498z M361.864, 340.313l-5.068, 5.889c-0.182, 0.212-0.442, 0.34-0.721, 0.354s-0.551-0.085-0.755-0.275l-2.349-2.151c-0.201-0.183-0.323-0.437-0.337-0.708s0.081-0.536, 0.263-0.737l0.225-0.249c0.372-0.412, 1.006-0.452, 1.427-0.089l1.282, 1.104l4.245-4.708c0.372-0.413, 1.005-0.453, 1.426-0.091l0.254, 0.218c0.206, 0.177, 0.333, 0.429, 0.354, 0.699S362.042, 340.107, 361.864, 340.313z"></path></svg></span><span class="txt">COMO FAZER SEUS SAQUES</span> </li> <li> <span class="ico"><svg fill="#31c455" klickart-edit-icon="svg" viewbox="349.373 334.498 16 16"><path d="M357.373, 334.498c-4.419, 0-8, 3.582-8, 8s3.581, 8, 8, 8c4.418, 0, 8-3.582, 8-8C365.373, 338.079, 361.791, 334.498, 357.373, 334.498z M361.864, 340.313l-5.068, 5.889c-0.182, 0.212-0.442, 0.34-0.721, 0.354s-0.551-0.085-0.755-0.275l-2.349-2.151c-0.201-0.183-0.323-0.437-0.337-0.708s0.081-0.536, 0.263-0.737l0.225-0.249c0.372-0.412, 1.006-0.452, 1.427-0.089l1.282, 1.104l4.245-4.708c0.372-0.413, 1.005-0.453, 1.426-0.091l0.254, 0.218c0.206, 0.177, 0.333, 0.429, 0.354, 0.699S362.042, 340.107, 361.864, 340.313z"></path></svg></span><span class="txt">ESTRATÉGIA DE ESCANTEIOS</span> </li> <li> <span class="ico"><svg fill="#31c455" klickart-edit-icon="svg" viewbox="349.373 334.498 16 16"><path d="M357.373, 334.498c-4.419, 0-8, 3.582-8, 8s3.581, 8, 8, 8c4.418, 0, 8-3.582, 8-8C365.373, 338.079, 361.791, 334.498, 357.373, 334.498z M361.864, 340.313l-5.068, 5.889c-0.182, 0.212-0.442, 0.34-0.721, 0.354s-0.551-0.085-0.755-0.275l-2.349-2.151c-0.201-0.183-0.323-0.437-0.337-0.708s0.081-0.536, 0.263-0.737l0.225-0.249c0.372-0.412, 1.006-0.452, 1.427-0.089l1.282, 1.104l4.245-4.708c0.372-0.413, 1.005-0.453, 1.426-0.091l0.254, 0.218c0.206, 0.177, 0.333, 0.429, 0.354, 0.699S362.042, 340.107, 361.864, 340.313z"></path></svg></span><span class="txt">GERENCIAMENTO DE BANCA</span> </li> <li> <span class="ico"><svg fill="#31c455" klickart-edit-icon="svg" viewbox="349.373 334.498 16 16"><path d="M357.373, 334.498c-4.419, 0-8, 3.582-8, 8s3.581, 8, 8, 8c4.418, 0, 8-3.582, 8-8C365.373, 338.079, 361.791, 334.498, 357.373, 334.498z M361.864, 340.313l-5.068, 5.889c-0.182, 0.212-0.442, 0.34-0.721, 0.354s-0.551-0.085-0.755-0.275l-2.349-2.151c-0.201-0.183-0.323-0.437-0.337-0.708s0.081-0.536, 0.263-0.737l0.225-0.249c0.372-0.412, 1.006-0.452, 1.427-0.089l1.282, 1.104l4.245-4.708c0.372-0.413, 1.005-0.453, 1.426-0.091l0.254, 0.218c0.206, 0.177, 0.333, 0.429, 0.354, 0.699S362.042, 340.107, 361.864, 340.313z"></path></svg></span><span class="txt">7 ERROS DOS PRINCIPIANTES</span> </li> <li class="sortable-chosen"> <span class="ico"><svg fill="#31c455" klickart-edit-icon="svg" viewbox="349.373 334.498 16 16"><path d="M357.373, 334.498c-4.419, 0-8, 3.582-8, 8s3.581, 8, 8, 8c4.418, 0, 8-3.582, 8-8C365.373, 338.079, 361.791, 334.498, 357.373, 334.498z M361.864, 340.313l-5.068, 5.889c-0.182, 0.212-0.442, 0.34-0.721, 0.354s-0.551-0.085-0.755-0.275l-2.349-2.151c-0.201-0.183-0.323-0.437-0.337-0.708s0.081-0.536, 0.263-0.737l0.225-0.249c0.372-0.412, 1.006-0.452, 1.427-0.089l1.282, 1.104l4.245-4.708c0.372-0.413, 1.005-0.453, 1.426-0.091l0.254, 0.218c0.206, 0.177, 0.333, 0.429, 0.354, 0.699S362.042, 340.107, 361.864, 340.313z"></path></svg></span><span class="txt">COMO OPERAR ALAVANCADO</span> </li> <li> <span class="ico"><svg fill="#31c455" klickart-edit-icon="svg" viewbox="349.373 334.498 16 16"><path d="M357.373, 334.498c-4.419, 0-8, 3.582-8, 8s3.581, 8, 8, 8c4.418, 0, 8-3.582, 8-8C365.373, 338.079, 361.791, 334.498, 357.373, 334.498z M361.864, 340.313l-5.068, 5.889c-0.182, 0.212-0.442, 0.34-0.721, 0.354s-0.551-0.085-0.755-0.275l-2.349-2.151c-0.201-0.183-0.323-0.437-0.337-0.708s0.081-0.536, 0.263-0.737l0.225-0.249c0.372-0.412, 1.006-0.452, 1.427-0.089l1.282, 1.104l4.245-4.708c0.372-0.413, 1.005-0.453, 1.426-0.091l0.254, 0.218c0.206, 0.177, 0.333, 0.429, 0.354, 0.699S362.042, 340.107, 361.864, 340.313z"></path></svg></span><span class="txt">PARTICIPAR DO GRUPO VIP DE SINAIS</span> </li> <li> <span class="ico"><svg fill="#31c455" klickart-edit-icon="svg" viewbox="349.373 334.498 16 16"><path d="M357.373, 334.498c-4.419, 0-8, 3.582-8, 8s3.581, 8, 8, 8c4.418, 0, 8-3.582, 8-8C365.373, 338.079, 361.791, 334.498, 357.373, 334.498z M361.864, 340.313l-5.068, 5.889c-0.182, 0.212-0.442, 0.34-0.721, 0.354s-0.551-0.085-0.755-0.275l-2.349-2.151c-0.201-0.183-0.323-0.437-0.337-0.708s0.081-0.536, 0.263-0.737l0.225-0.249c0.372-0.412, 1.006-0.452, 1.427-0.089l1.282, 1.104l4.245-4.708c0.372-0.413, 1.005-0.453, 1.426-0.091l0.254, 0.218c0.206, 0.177, 0.333, 0.429, 0.354, 0.699S362.042, 340.107, 361.864, 340.313z"></path></svg></span><span class="txt">MENTORIAS EXCLUSIVAS PARA CLIENTES</span> </li> <li> <span class="ico"><svg fill="#31c455" klickart-edit-icon="svg" viewbox="349.373 334.498 16 16"><path d="M357.373, 334.498c-4.419, 0-8, 3.582-8, 8s3.581, 8, 8, 8c4.418, 0, 8-3.582, 8-8C365.373, 338.079, 361.791, 334.498, 357.373, 334.498z M361.864, 340.313l-5.068, 5.889c-0.182, 0.212-0.442, 0.34-0.721, 0.354s-0.551-0.085-0.755-0.275l-2.349-2.151c-0.201-0.183-0.323-0.437-0.337-0.708s0.081-0.536, 0.263-0.737l0.225-0.249c0.372-0.412, 1.006-0.452, 1.427-0.089l1.282, 1.104l4.245-4.708c0.372-0.413, 1.005-0.453, 1.426-0.091l0.254, 0.218c0.206, 0.177, 0.333, 0.429, 0.354, 0.699S362.042, 340.107, 361.864, 340.313z"></path></svg></span><span class="txt">CONHECER EM PRIMEIRA MÃO TODOS OS PRODUTOS E NOVIDADES DO GRUPO</span> </li> </ul> <div class="form-content" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-08-26T21:49:47.496Z","timezone":"-03:00"}'> <a class="general-button modal-trigger" href="https://pay.hotmart.com/K42199269P?checkoutMode=10" klickart-edit-not-highlight="" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-linkpg43fbti8vo00" style="background-attachment: scroll; border-radius: 0px; background-color: rgb(34, 175, 117);"><span style="font-family: Montserrat, sans-serif;"><b class="medium-b">QUERO ENTRAR PARA O TIME</b></span></a> </div> </div></section> </div><div id="section-10293793" klickart-edit-component-info=""> <link href="https://fonts.googleapis.com/css?family=Slabo+13px" rel="stylesheet" type="text/css"> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/1243/styles/main.css?v=1565962747"> <section class="quality-2 template-henrique" style='background-attachment: fixed; background-image: url("//static-public.klickpages.com.br/uploads/media/file/1396370/futebol-capas-1100594_widelg.png");' data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-08-26T21:49:47.504Z","timezone":"-03:00"}'><div class="component-bg" style="background-color: rgba(0, 0, 0, 0.9);" klickart-edit-background-mask-visible="true"></div> <div class="container"> <h2 class="quality-2-title" style="font-family: Montserrat, sans-serif; line-height: 13.2px;"> <b class="medium-b"><font class="klickart-lineHeight" style="line-height: 41.7px;">VANTAGENS DO FUTCASH </font></b><br> <br> </h2> <div class="quality-2-list" id="klickart-collection-16cqa754k43o00"> <div class="quality-2-item col-3"> <span class="ico"><span class="ico-container"><svg klickart-edit-icon="svg" fill="rgb(255, 255, 255)" viewbox="0 0 367.633 367.633" enable-background="new 0 0 367.633 367.633"> <path d="M266.003,0H101.63C86.293,0,73.816,12.476,73.816,27.812v312.01c0,15.335,12.477,27.812,27.813,27.812h164.373 c15.337,0,27.814-12.477,27.814-27.812V27.812C293.816,12.476,281.34,0,266.003,0z M194.844,338.736 c0,2.175-1.763,3.938-3.938,3.938h-14.18c-2.175,0-3.938-1.763-3.938-3.938v-12.604c0-1.279,0.622-2.481,1.669-3.219l7.09-4.993 c1.362-0.959,3.175-0.959,4.537,0l7.09,4.993c1.047,0.737,1.669,1.939,1.669,3.219V338.736z M260.732,300.516H106.9V42.299h153.832 V300.516z"></path> </svg></span></span><h4 class="title" style="line-height: 13.2px;"> <b class="medium-b">COMPLETO E </b><br><b class="medium-b"> </b><br><b class="medium-b">100% ONLINE</b> </h4> <div class="description" style="">Utilizamos a Hotmart Club, uma plataforma completa e de fácil manuseio. Com vídeo aulas online, sempre atualizadas com técnicas e estratégias novas. <div>Nada de aulas chatas e extensas.</div> </div> </div> <div class="quality-2-item col-3"> <span class="ico"><span class="ico-container"><svg klickart-edit-icon="svg" fill="rgb(255, 255, 255)" viewbox="0 0 958.736 958.736" enable-background="new 0 0 958.736 958.736"> <path d="M95.5,944.268h63.8c27.6,0,50-22.399,50-50v-164.3c-53.2,7.8-107.9,12.7-162.9,14.4c-0.3,0-0.6,0-1,0v149.8 C45.5,921.868,67.9,944.268,95.5,944.268z"></path> <path d="M389.1,944.268c27.601,0,50-22.399,50-50v-219.5c-26.5,9.101-54,17.4-81.699,24.801c-24.801,6.6-50.4,12.6-75.9,17.8 c-2,0.399-4.1,0.8-6.2,1.2v175.6c0,27.6,22.4,50,50,50h63.8V944.268z"></path> <path d="M618.7,944.268c27.6,0,50-22.399,50-50V563.868c-4.8,3.2-9.601,6.3-14.5,9.3c-42.3,26.6-88.4,50.7-137.101,71.6 c-4,1.7-8.1,3.4-12.199,5.101v244.3c0,27.6,22.399,50,50,50h63.8V944.268z"></path> <path d="M898.4,894.268v-577.8c-10.101,20.5-21.801,40.7-35,60.4c-29.101,43.3-65.5,84.3-108.4,121.8 c-6.6,5.8-13.4,11.5-20.4,17.2v378.5c0,27.6,22.4,50,50,50H848.4C876,944.268,898.4,921.868,898.4,894.268z"></path> <path d="M25.2,713.868c0.1,0,0.3,0,0.4,0c6.7-0.101,13.3-0.3,20-0.5c55.6-1.7,110.3-6.7,163.8-14.7c22.2-3.3,44.1-7.2,65.9-11.6 c25-5.101,49.7-10.9,74.101-17.4c30.8-8.2,60.699-17.4,89.699-27.7c22.5-8,44.5-16.5,65.9-25.7c47.3-20.3,91.7-43.399,132.8-69.3 c10.601-6.7,21-13.5,31-20.5c23.5-16.3,45.5-33.399,65.9-51.2c40.899-35.699,75.399-74.399,103.1-115.7 c27.8-41.4,48.101-84.4,60.7-128.5c5.7-19.9,9.8-39.9,12.4-60.2h22.8c20.1,0,32-22.6,20.6-39.2l-73.5-106.5 c-5-7.2-12.8-10.8-20.6-10.8s-15.601,3.6-20.601,10.8l-73.399,106.5c-11.4,16.6,0.399,39.2,20.6,39.2h22.9 c-7.8,45.6-26.2,90.2-55,133c-6.3,9.3-13,18.5-20.101,27.5c-18.899,24-40.899,46.899-65.899,68.7c-25.2,22-53.3,42.8-84.3,62.399 c-25.101,15.8-51.601,30.5-79.5,44c-21.2,10.3-43.2,19.9-65.9,28.8c-36.6,14.4-75.2,27-115.5,37.801c-16,4.3-32.1,8.199-48.4,11.8 c-21.7,4.8-43.7,9-65.9,12.6c-53.4,8.7-108.1,14-163.8,15.9c-6.9,0.2-13.8,0.399-20.8,0.5c-13.6,0.3-24.6,11.3-24.6,25v50 C0.2,702.668,11.4,713.868,25.2,713.868z"></path> </svg></span></span><h4 class="title" style=""><b class="medium-b"><font class="klickart-lineHeight" style="line-height: 16.8px;"><font class="klickart-lineHeight" style="line-height: 13px;">INIC</font><font class="klickart-lineHeight" style="line-height: 13px;">IANTE OU</font></font><br><font class="klickart-lineHeight" style="line-height: 13px;">​​​​​​​EXPERIENTE</font></b></h4> <div class="description">Não importa se você é um trader iniciante ou experiente, nosso conteúdo veio para agregar e o grande diferencial é nosso grupo VIP de sinais que conta com a experiência de nossos Traders.</div> </div> <div class="quality-2-item col-3" style=""> <span class="ico"><span class="ico-container"><svg klickart-edit-icon="svg" fill="rgb(255, 255, 255)" viewbox="-80 0 1952 1792"><path d="M529 896q-162 5-265 128h-134q-82 0-138-40.5t-56-118.5q0-353 124-353 6 0 43.5 21t97.5 42.5 119 21.5q67 0 133-23-5 37-5 66 0 139 81 256zm1071 637q0 120-73 189.5t-194 69.5h-874q-121 0-194-69.5t-73-189.5q0-53 3.5-103.5t14-109 26.5-108.5 43-97.5 62-81 85.5-53.5 111.5-20q10 0 43 21.5t73 48 107 48 135 21.5 135-21.5 107-48 73-48 43-21.5q61 0 111.5 20t85.5 53.5 62 81 43 97.5 26.5 108.5 14 109 3.5 103.5zm-1024-1277q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm704 384q0 159-112.5 271.5t-271.5 112.5-271.5-112.5-112.5-271.5 112.5-271.5 271.5-112.5 271.5 112.5 112.5 271.5zm576 225q0 78-56 118.5t-138 40.5h-134q-103-123-265-128 81-117 81-256 0-29-5-66 66 23 133 23 59 0 119-21.5t97.5-42.5 43.5-21q124 0 124 353zm-128-609q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181z"></path></svg></span></span><h4 class="title"><b class="medium-b">UMA COMUNIDADE EXPONENCIAL</b></h4> <div class="description">Fazemos parte de uma Mente Mestra, estudamos as mentes milionárias e buscamos riquezas através de múltiplas fontes de renda. Você ficará por dentro de tudo que trouxermos de bom!</div> </div> <div class="quality-2-item col-6" style=""> <span class="ico"><span class="ico-container"><svg klickart-edit-icon="svg" fill="rgb(255, 255, 255)" viewbox="120 120 1552 1552"><path d="M1152 896q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm128 0q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm128 0q0 212-150 362t-362 150-362-150-150-362 150-362 362-150 362 150 150 362zm128 0q0-130-51-248.5t-136.5-204-204-136.5-248.5-51-248.5 51-204 136.5-136.5 204-51 248.5 51 248.5 136.5 204 204 136.5 248.5 51 248.5-51 204-136.5 136.5-204 51-248.5zm128 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path></svg></span></span><h4 class="title"><b>ASSERTIVIDADE E GESTÃO</b></h4> <div class="description">Temos tido uma assertividade surpreendente, mas ainda assim estipulamos uma meta de lucro diária e fechamos a semana com planilhas de gestão mostrando todos os resultados da semana!</div> </div> <div class="quality-2-item col-3"> <span class="ico"><span class="ico-container"><svg klickart-edit-icon="svg" fill="rgb(255, 255, 255)" viewbox="0 0 1662 1792"><path d="M1303 964l-512 512q-10 9-23 9t-23-9l-288-288q-9-10-9-23t9-22l46-46q9-9 22-9t23 9l220 220 444-444q10-9 23-9t22 9l46 46q9 9 9 22t-9 23zm-1175 700h1408v-1024h-1408v1024zm384-1216v-288q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v288q0 14 9 23t23 9h64q14 0 23-9t9-23zm768 0v-288q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v288q0 14 9 23t23 9h64q14 0 23-9t9-23zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z"></path></svg></span></span><h4 class="title"><b class="medium-b">ASSISTA QUANDO QUISER</b></h4> <div class="description">Acesso vitalício ao curso. Poderá assistir quando e onde quiser, através do celular ou Pc com internet. Aulas com materiais complementares para auxílio no entendimento.​​​​​​​</div> </div> <div class="quality-2-item col-3"> <span class="ico"><span class="ico-container"><svg klickart-edit-icon="svg" fill="rgb(255, 255, 255)" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M813 1299l614-614q19-19 19-45t-19-45l-102-102q-19-19-45-19t-45 19l-467 467-211-211q-19-19-45-19t-45 19l-102 102q-19 19-19 45t19 45l358 358q19 19 45 19t45-19zm851-883v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"></path></svg></span></span><h4 class="title"><b class="medium-b"><font class="klickart-lineHeight" style="line-height: 13px;">SATISFAÇÃO GARANTIDA</font></b></h4> <div class="description">Mesmo sendo hoje um dos grupos  de sinais que mais cresce do Brasil, e tendo resultados consistentes DIARIAMENTE, nos comprometemos em devolver seu dinheiro em até 7 dias*</div> </div> </div> </div></section> </div><div id="section-10293800" klickart-edit-component-info=""> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/703/styles/main.css?v=1493236176"> <section class="plans-icon template-camila" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2020-01-15T23:25:09.044Z","timezone":"-03:00","redirect":false,"url":""}' style="background-attachment: fixed;"><div class="component-bg" style="background-color: rgba(255, 255, 255, 1);" klickart-edit-background-mask-visible="true"></div> <div class="container" klickart-art-trigger=".plans-icon.template-camila .component-bg"> <h3 style="display: none;" class="plans-icon-description">VEJA NOSSAS OPÇÕES</h3> <h2 style="display: none;" class="plans-icon-title"><b class="medium-b">PLANOS E PREÇOS</b></h2> <h3 style="display: none;" class="plans-icon-subtitle">Escolha a melhor forma de pagamento para você!</h3> <div class="plans-wrapper" id="klickart-collection-1bk8m07ktnvo00"> <div class="plans-col col-sm-4" style=""> <div class="plans-icon-item" klickart-edit-combo-son-draw-edition="" klickart-edit-not-highlight="" style="background-attachment: scroll;"> <span class="icon-offer" style="display: none;"><svg klickart-edit-icon="svg" fill="#38A052" viewbox="0 0 140 142" enable-background="new 0 0 140 142" xml:space="preserve"><polygon points="127,0 56,0 0,56 0,128 15,142 15.085,112.915 114,14 140,14"></polygon><g fill="#2c7c40"><polygon points="0,128 15,142 15,113"></polygon><polygon points="127,0 114,14 140,14"></polygon></g><text transform="matrix(0.7071 -0.7071 0.7071 0.7071 15.0728 74.4678)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="13">OFERTA POR</tspan><tspan x="-16.385" y="16.001" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="13">TEMPO LIMITADO</tspan></text></svg></span><header><div class="plans-icon-type" style="font-size: 27px;">COMECE <b class="medium-b">AGORA</b> </div> <div class="plans-icon-line"></div></header><div class="plans-icon-price Medium Medium-rich" style="line-height: 39.1px; font-size: 56px;"> <b class="medium-b"><span class="text-price" style="color: rgb(255, 74, 33);">De <s class="medium-s">R$497,00</s> por</span><span class="sifrao">R$197,00/Adesão + um mês Grátis </span></b> </div> <div class="plans-description Medium Medium-rich">Menos de R$ 3,35 por dia.<br> </div> <a href="https://pay.hotmart.com/K42199269P?checkoutMode=10" class="plans-icon-button" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-link1h2smjnqnf5g00" style="background-attachment: scroll; background-color: rgb(255, 154, 0);"><span style="font-family: Montserrat, sans-serif;" class="Medium Medium-rich"><b class="medium-b">QUERO GARANTIR MINHA VAGA AGORA!!!</b></span></a> </div> </div> </div> </div></section> </div><div id="section-10293797" klickart-edit-component-info=""> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/1186/styles/main.css?v=1555417250"> <section class="table-images template-hugo bottom" style="background-attachment: fixed;" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-08-26T21:49:47.541Z","timezone":"-03:00"}'><div class="component-bg" style="background-color: rgba(255,255,255,1);" klickart-edit-background-mask-visible="true"></div> <div class="container"> <h2 class="table-images-title" style="font-family: Montserrat, sans-serif;"><b class="medium-b">PESSOAS PODEM MENTIR, NÚMEROS NÃO</b></h2> <div class="table-images-description" style="font-size: 28px; line-height: 30.4px; text-align: center; font-family: Montserrat, sans-serif;">VEJA ABAIXO OS RESULTADOS DE NOSSOS ALUNOS!!!</div> <div class="table-images-box" id="klickart-collection-17vb1nitfcvg00"> <div class="item" style=""><div class="image-layer"> <img class="img-responsive" src="//static-public.klickpages.com.br/uploads/media/file/1394731/photo4913770920150149214.jpg" alt="Título do Vídeo" klickart-image-source="src" previous-value="//static-public.klickpages.com.br/uploads/media/file/1394731/photo4913770920150149214.jpg" last-local-image-source="//static-public.klickpages.com.br/uploads/media/file/1394731/photo4913770920150149214.jpg"><div class="layer" klickart-edit-not-highlight="" style="background-attachment: scroll;"></div> <a href="http://" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-linkgm1slakquq400"></a> </div></div> <div class="item"><div class="image-layer"> <img class="img-responsive" src="//static-public.klickpages.com.br/uploads/media/file/1394730/photo5161388566587222145.jpg" alt="Título do Vídeo" klickart-image-source="src" previous-value="//static-public.klickpages.com.br/uploads/media/file/1394730/photo5161388566587222145.jpg" last-local-image-source="//static-public.klickpages.com.br/uploads/media/file/1394730/photo5161388566587222145.jpg"><div class="layer" klickart-edit-not-highlight="" style="background-attachment: scroll;"></div> <a href="http://" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-linkmp51ti9a43000"></a> </div></div> <div class="item"><div class="image-layer"> <img class="img-responsive" src="//static-public.klickpages.com.br/uploads/media/file/1394729/photo4913770920150149216.jpg" alt="Título do Vídeo" klickart-image-source="src" previous-value="//static-public.klickpages.com.br/uploads/media/file/1394729/photo4913770920150149216.jpg" last-local-image-source="//static-public.klickpages.com.br/uploads/media/file/1394729/photo4913770920150149216.jpg"><div class="layer" klickart-edit-not-highlight="" style="background-attachment: scroll;"></div> <a href="http://" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-link1kp62dfi1qfg00"></a> </div></div> <div class="item" style=""><div class="image-layer"> <img class="img-responsive" src="//static-public.klickpages.com.br/uploads/media/file/1350616/img_4372.jpg" alt="Título do Vídeo" klickart-image-source="src" previous-value="//static-public.klickpages.com.br/uploads/media/file/1350616/img_4372.jpg" last-local-image-source="//static-public.klickpages.com.br/uploads/media/file/1350616/img_4372.jpg"><div class="layer" klickart-edit-not-highlight="" style="background-attachment: scroll;"></div> <a href="http://" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-link1cjg07taqcjg00"></a> </div></div> <div class="item"><div class="image-layer"> <img class="img-responsive" src="//static-public.klickpages.com.br/uploads/media/file/1350619/img_4375.jpg" alt="Título do Vídeo" klickart-image-source="src" last-local-image-source="//static-public.klickpages.com.br/uploads/media/file/1350619/img_4375.jpg" previous-value="//static-public.klickpages.com.br/uploads/media/file/1350619/img_4375.jpg"><div class="layer" klickart-edit-not-highlight="" style="background-attachment: scroll;"></div> <a href="http://" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-link1r41l090v03800"></a> </div></div> <div class="item" style=""><div class="image-layer"> <img class="img-responsive" src="//static-public.klickpages.com.br/uploads/media/file/1350617/img_4373.jpg" alt="Título do Vídeo" klickart-image-source="src" last-local-image-source="//static-public.klickpages.com.br/uploads/media/file/1350617/img_4373.jpg" previous-value="//static-public.klickpages.com.br/uploads/media/file/1350617/img_4373.jpg"><div class="layer" klickart-edit-not-highlight="" style="background-attachment: scroll;"></div> <a href="http://" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-linku213st6if4k00"></a> </div></div> </div> <div style="display: none;" class="cta-table-video" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-08-26T21:49:47.593Z","timezone":"-03:00"}'> <a class="general-button success modal-trigger" href="#" klickart-edit-not-highlight="" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-linki1ohmijv6ao00" style="background-attachment: scroll;"><span><b class="medium-b">QUERO SER UM MEMBRO DIAMANTE</b></span></a> </div> </div></section> </div><div id="section-10293794" klickart-edit-component-info=""> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/816/styles/main.css?v=1523652137"> <section class="satisfaction template-olivia" style="background-attachment: fixed;" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-08-26T21:49:47.601Z","timezone":"-03:00"}'><div class="component-bg" style="background-color:rgba(255, 255, 255, 1);" klickart-edit-background-mask-visible="true"></div> <div class="container"> <span class="img" style=""><img src="//static-public.klickpages.com.br/uploads/media/file/1103625/7-dias-garantia.png" klickart-edit-icon="img" style="width: 266px;"></span><div class="satisfaction-description" style="font-family: Montserrat, sans-serif;">O <b class="medium-b">RISCO é TODO NOSSO</b>, em até <span style="color:#d7395e"><b class="medium-b">7 DIAS</b> depois do pagamento,</span> você pode cancelar por qualquer motivo, e devolvemos todo o valor pago.</div> </div></section> </div><div id="section-10293796" klickart-edit-component-info=""> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/1206/styles/main.css?v=1557326062"> <section class="cta-3cols template-saude bottom" style="background-attachment: fixed;" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-08-26T21:49:47.604Z","timezone":"-03:00"}'><div class="component-bg" style="background-color:rgba(255,255,255,1.0);" klickart-edit-background-mask-visible="true"></div> <div class="container"> <div class="cta-3cols-col"><div class="col-form" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-08-26T21:49:47.607Z","timezone":"-03:00"}'> <a class="general-button success modal-trigger" href="https://pay.hotmart.com/K42199269P?checkoutMode=10" klickart-edit-not-highlight="" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-linkpnqigkdt71k00" style="background-attachment: scroll; background-color: rgb(255, 154, 0);"><span style="font-family: Montserrat, sans-serif;"><b>QUERO ENTRAR PARA O TIME DOS VENCEDORES AGORA!</b><br></span></a> </div></div> <div class="img-content" id="klickart-collection-1hcfv7chdjj80"> <span class="img"><img klickart-edit-icon="img" src="//static-public.klickpages.com.br/tmp/zip/1206/images/01.png?v=1557326062" alt="Formas de Pagamento"></span><span class="img"><img klickart-edit-icon="img" src="//static-public.klickpages.com.br/tmp/zip/1206/images/02.png?v=1557326062" alt="Formas de Pagamento"></span><span class="img"><img klickart-edit-icon="img" src="//static-public.klickpages.com.br/tmp/zip/1206/images/03.png?v=1557326062" alt="Formas de Pagamento"></span><span class="img"><img klickart-edit-icon="img" src="//static-public.klickpages.com.br/tmp/zip/1206/images/04.png?v=1557326062" alt="Formas de Pagamento"></span><span class="img"><img klickart-edit-icon="img" src="//static-public.klickpages.com.br/tmp/zip/1206/images/05.png?v=1557326062" alt="Formas de Pagamento"></span><span class="img"><img klickart-edit-icon="img" src="//static-public.klickpages.com.br/tmp/zip/1206/images/06.png?v=1557326062" alt="Formas de Pagamento"></span><span class="img"><img klickart-edit-icon="img" src="//static-public.klickpages.com.br/tmp/zip/1206/images/07.png?v=1557326062" alt="Formas de Pagamento"></span><span class="img"><img klickart-edit-icon="img" src="//static-public.klickpages.com.br/tmp/zip/1206/images/08.png?v=1557326062" alt="Formas de Pagamento"></span><span class="img"><img klickart-edit-icon="img" src="//static-public.klickpages.com.br/tmp/zip/1206/images/09.png?v=1557326062" alt="Formas de Pagamento"></span> </div> <div class="txt"><b class="medium-b">* ULTIMAS VAGAS!</b></div> </div></section> </div><div id="section-10293795" klickart-edit-component-info=""> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/1070/styles/main.css?v=1540471865"> <section class="faq only-questions template-erico" style="background-attachment: fixed;" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-08-26T21:49:47.630Z","timezone":"-03:00"}'><div class="component-bg" style="background-color: rgba(246, 246, 246, 1);" klickart-edit-background-mask-visible="true"></div> <div class="container"> <h3 class="faq-description" style="font-family: Montserrat, sans-serif;"><b class="medium-b">DÚVIDAS FREQUENTES:</b></h3> <h2 class="faq-title" style="font-family: Montserrat, sans-serif;"><b class="medium-b"><font class="klickart-font" style="color: rgb(34, 175, 117);">DÚVIDAS FREQUENTES:</font></b></h2> <div class="faq-questions" id="klickart-collection-2ikmg8lcn21000"> <div class="faq-question faq-accordion" style="background-attachment: scroll;"> <h3 class="title" klickart-edit-faq-question="collecti_erico_faq_item_1">1.E se nada disso funcionar?<br> </h3> <div class="content"><div class="text">Praticamente impossível não funcionar, existem diversos casos de sucesso no mercado de trader esportivo de pessoas que mal sabiam sobre este mercado, ou até mesmo pessoas que não gostam de esportes. O conhecimento e passo a passo você já irá adquirir através do conteúdo da plataforma. O resultado vem, mas depende também de você, do seu esforço e dedicação, pois não é dinheiro fácil.</div></div> </div> <div class="faq-question faq-accordion" style="background-attachment: scroll;"> <h3 class="title" klickart-edit-faq-question="collecti_erico_faq_item_2">2.Por quanto tempo terei acesso ao curso? <br> </h3> <div class="content"><div class="text">O seu acesso ao curso é vitalício. Poderá assistir quando quiser, e quantas vezes quiser, até porque haverá  atualização das aulas e novos conteúdos para que sua experiência seja completa e sempre ativa. <br> <br> </div></div> </div> <div class="faq-question faq-accordion" style="background-attachment: scroll;"> <h3 class="title" klickart-edit-faq-question="collecti_erico_faq_item_3">3.Como e por onde vou receber meus lucros? <br> </h3> <div class="content"><div class="text">Você receberá seus lucros através da corretora que vamos utilizar, a Bet365. Seu dinheiro fica em seu poder, e ao solicitar saque, a corretora deposita diretamente em sua conta, lembramos novamente que o mercado de trader possui seus riscos, não existe lucro garantido. <b class="medium-b">NÃO FAZEMOS A CUSTÓDIA DO DINHEIRO DE NINGUÉM!</b> <br> <br> </div></div> </div> <div class="faq-question faq-accordion" style="background-attachment: scroll;"> <h3 class="title" klickart-edit-faq-question="collecti_erico_faq_item_4">4.Como funciona o grupo do telegram?<br> </h3> <div class="content"><div class="text Medium Medium-rich">Atualmente temos um grupo <b class="medium-b">VIP</b> no telegram, onde são enviados sinais diariamente para que você possa operar seguindo uma equipe especializada de traders. Este grupo possui uma mensalidade recorrente. <br> <br> </div></div> </div> <div class="faq-question faq-accordion" style="background-attachment: scroll;"> <h3 class="title" klickart-edit-faq-question="collecti_erico_faq_item_5">5.Para obter rendimentos com Trader Esportivo vou ter que ficar assistindo jogos o dia inteiro?<br> </h3> <div class="content"><div class="text">Nem o dia inteiro, nem hora nenhuma. Você vai receber sinais já "mastigados" após a análise feita por uma equipe Traders experientes que vivem para isto. Claro que a medida que você for gostando e se identificar com este perfil, provavelmente vai começar a fazer suas próprias análises. Mas não é obrigatório!<br> </div></div> </div> <div class="faq-question faq-accordion" style="background-attachment: scroll;"> <h3 class="title" klickart-edit-faq-question="collecti_erico_faq_item_2-1dk9hfmp8">6.Assim que eu adquirir, como terei meu acesso ao curso? <br> </h3> <div class="content"><div class="text">Você receberá o acesso ao curso pelo seu E-mail. Se você realizar o pagamento por cartão de crédito, em até 5 minutos você recebe seu acesso, se for por boleto, após o pagamento, em até 48 horas. Está esperando o que? Clique agora nos botões indicados desta página e faça parte desse grupo seleto! <br> <br> </div></div> </div> <div class="faq-question faq-accordion" style="background-attachment: scroll;"> <h3 class="title" klickart-edit-faq-question="collecti_erico_faq_item_2-1doa52nog">7. Se realmente eu não gostar terei meu dinheiro de volta?</h3> <div class="content"><div class="text Medium Medium-rich">Sim, você pode cancelar seu curso em até 7 dias após o pagamento! Não estamos aqui de lero lero, nossa meta é fazer você ter lucros, caso você não perceba isto, nosso compromisso é com o ser humano. Pode cancelar que reembolsamos seu money!<br> </div></div> </div> </div> </div></section> </div><div id="section-10293801" klickart-edit-component-info=""> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/977/styles/main.css?v=1534353455"> <section class="author-about-2-4 template-erico" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2019-12-28T17:57:39.591Z","timezone":"-03:00","redirect":false,"url":""}' style="background-attachment: fixed;"><div class="component-bg" style="background-color: rgba(255, 255, 255, 1);" klickart-edit-background-mask-visible="true"></div> <div class="container"><div class="author-about-2-4-box clearfix"> <div class="thumb"><img class="img-responsive" src="//static-public.klickpages.com.br/uploads/media/file/1103571/foto-perfil.png" alt="João da Silva" style="width:182px" klickart-image-source="src" last-local-image-source="//static-public.klickpages.com.br/uploads/media/file/1103571/foto-perfil.png" previous-value="//static-public.klickpages.com.br/uploads/media/file/1103571/foto-perfil.png"></div> <div class="text"><span class="description" style="text-align: center;"><b class="medium-b">@PaidoDigital</b><br><br>Meu nome é Talyson Bonifácio (Ex Falido), casado com Lorenna Moreira e papai da Linda (Dog), já trabalhei vendendo chip de operadora, fui motorista de Uber e hoje sou empresário na internet. <u class="medium-u">O meu propósito é</u><b class="medium-b"> impactar o maior numero de vidas positivamente através desse mercado maravilhoso que transformou completamente a minha vida.</b></span></div> </div></div></section> </div><div id="section-10293802" klickart-edit-component-info=""> <link rel="stylesheet" href="//static-public.klickpages.com.br/tmp/zip/1258/styles/main.css?v=1594409155"> <footer componentname="Erico Rocha - Rodapé 4" class="footer-4 template-erico" data-klickart-delay-options='{"enabled":false,"selectedType":"default","time":"","dateTime":"2020-09-05T02:20:27.671Z","timezone":"-03:00","redirect":false,"url":""}' style="background-attachment: scroll;"><div class="component-bg" style="background-color: rgb(6,41,84);" klickart-edit-background-mask-visible="true"></div> <div class="container"> <div class="menu" id="klickart-collection-2je23va8bgug00"> <a href="#" target="_blank" title="Considerações Importantes" klickart-edit-link-type="default" klickart-edit-link-href-klickbox="#" klickart-edit-link-href-faq-question="#" id="klickart-link11lo19flgi7000" class="Medium Medium-rich">Considerações Importantes<br><br>As provas sociais, foram gentilmente cedidas por clientes reais, porém não garantimos <br>lucros, e os resultados podem ser diferentes de pessoa para pessoa devido a diversos fatores individuais. <br>Todo e qualquer resultado é de total responsabilidade do aluno. Este serviço não é destinado a menores de 18 anos.<br></a> </div> <div class="menu" id="klickart-collection-kuevcvl6nqc00"> </div> </div> </footer> </div> </div> <div klickart-popups style="display: none;"> </div> <script type="text/javascript" src="//static-public.klickpages.com.br/app/assets/javascripts/public/js/body/end.js?v=1611612343">
+//<![CDATA[
+
+//]]>
+</script> <script type="text/javascript" src="//static-public.klickpages.com.br/app/assets/javascripts/libs/libs.js?v=1611612343">
+//<![CDATA[
+
+//]]>
+</script> </body> </html>
+
